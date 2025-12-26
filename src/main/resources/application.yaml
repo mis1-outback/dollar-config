@@ -1,6 +1,6 @@
 server:
   port: 28081
 
-Spring:
+spring:
   application:
     name: dollar-config

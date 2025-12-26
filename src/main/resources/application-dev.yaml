@@ -4,4 +4,4 @@ spring:
       server:
         git:
           uri: https://github.com/mis1-outback/dollar-config
-          default-label: dev
+          default-label: dev  #Spring config server가 기본적으로 dev 브랜치 설정을 읽는 것

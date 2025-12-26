@@ -1,10 +1,8 @@
 spring:
-  config:
-    activate:
-      on-profile: local
+
 
   cloud:
     config:
       server:
         git:
-          uri: ${CONFIG_REPO_PATH}
+          uri: file:///C:/Users/LEEHEEJAE/IdeaProjects/dollar-config-repo
