@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: dollar-config
+
+  profiles:
+    group:
+      local: native
