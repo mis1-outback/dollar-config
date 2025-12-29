@@ -1,0 +1,10 @@
+server:
+  port: 28081
+
+spring:
+  application:
+    name: config
+
+  profiles:
+    group:
+      local: native
