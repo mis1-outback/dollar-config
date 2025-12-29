@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: dollar-config
+    name: config
 
   profiles:
     group:

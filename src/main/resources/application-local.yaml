@@ -3,4 +3,11 @@ spring:
     config:
       server:
         native:
-          search-locations: file:./configs
+          search-locations: file:./configs/{application}
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:28080/eureka
