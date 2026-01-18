@@ -7,3 +7,18 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:28080/eureka/
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: auth
+              uri: lb://AUTH
+              predicates:
+                - Path=/auth/**
+            - id: user
+              uri: lb://USER
+              predicates:
+                - Path=/user/**
